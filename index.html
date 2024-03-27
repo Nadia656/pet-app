@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1>Monthly Expenses</h1>
+        <form>
+        <p>House Rent</p>
+        <span>
+        <input type="text" id="house" placeholder="House rent">
+        </span>
+        <p>Food & Groceries</p>
+        <span>
+        <input type="text" id="food" placeholder="Food">
+        </span>
+        <p>Transportation and Car Insurance</p>
+        <span>
+        <input type="text" id="car" placeholder="Car">
+        </span>
+        <p>Number of People</p>
+        <span>
+        <input type="text" id="people" placeholder="Number of people">
+        </span>
+
+        <button id="travel">Additional Expenses</button>
+        <select id="additional">
+            <option selected>Choose an Option</option>
+            <option value = "500">Travel Expenses ($500)</option>
+            <option value = "1000">Travel Expenses + Entertainment ($1000)</option>
+            <option value = "1500">Travel Expenses + Entertainment + Health Care ($1500)</option>
+        </select>
+        <button id="btn">Calculate</button>
+        </form>
+
+        <div id="totalAmount">
+            <div id="main">
+                <p>Main Expenses</p>
+                <span>$</span>
+                <span id="amountPerPerson"></span>
+                <span>per person</span>
+            </div>
+            <div id="add">
+                <p>Additional</p>
+                <span>$</span>
+                <span id="additionalExp"></span>
+                <span>per person</span>
+            </div>
+            <div id="total">
+                <p>Total Sum</p>
+                <span>$</span>
+                <span id="allSum"></span>
+                <span>per person</span>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
