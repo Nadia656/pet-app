@@ -1,6 +1,6 @@
 # Pet App
 
-Pet App is a HTML/CSS project for calculating pet expenses for every owner.
+Pet App is a JS/HTML/CSS project for calculating pet expenses for every owner.
 ## Usage
 
 1. enter all data  
