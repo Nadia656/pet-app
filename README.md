@@ -9,6 +9,9 @@ Pet App is a HTML/CSS project for calculating pet expenses for every owner.
 
 3. calculate the sum for every person
 
+![Pet Application]()
+
+
 ## Built With
 HTML</br>
 CSS</br>
